@@ -7,7 +7,7 @@ var config = {
   theme: "light",
   alignment: "left",
   title:
-    "Climate Justice: Desigualdad en la Producción de Conocimiento Climático",
+    "Justicia Climática: Desigualdad en la Producción de Conocimiento Climático",
   subtitle:
     "Un recorrido visual por quién investiga el clima, desde dónde y con qué voces ausentes",
   byline: "Storytelling creado por Raquel Pérez",
@@ -201,3 +201,4 @@ var config = {
     },
   ],
 };
+
