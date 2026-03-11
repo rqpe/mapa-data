@@ -24,7 +24,7 @@ var config = {
                 <img src="assets/mapa-paises1.png" style="width:100%; border-radius:8px; margin-bottom:12px;">
                 </a>
                 <p style="font-size: 11px; color: #888; font-style: italic; margin-top: 4px;">
-                Figura 1. Mapa global de autores del IPCC 4
+                Figura 1. Mapa global de autores del IPCC 4 - haz clic en la imagen para ver la versión interactiva
                 </p>
                 La ciencia climática no se escribe en el vacío. Se escribe desde lugares concretos,
                 con recursos desiguales y con voces que se escuchan más que otras.
@@ -42,7 +42,7 @@ var config = {
                 Los datos proceden del <strong>IPCC SROCC</strong>, Capítulo 4, sobre el aumento del nivel del mar
                 y sus implicaciones para islas, costas y comunidades vulnerables.
                 <br>
-                <a href="https://www.ipcc.ch/srocc/chapter/chapter-4-sea-level-rise-and-implications-for-low-lying-islands-coasts-and-communities/4-1synthesis/4-1-2future-sea-level-rise-and-implications-for-responses/ipcc-srocc-ch_4_15/" target="_blank">
+                <a href="https://www.ipcc.ch/srocc/chapter/chapter-4-sea-level-rise-and-implications-for-low-lying-islands-coasts-and-communities/4-1synthesis/" target="_blank">
                     Fuente: IPCC SROCC, Capítulo 4
                 </a>
 
@@ -57,6 +57,10 @@ var config = {
         pitch: 45,
         bearing: 0,
       },
+      mapAnimation: "easeTo",
+      rotateAnimation: false,
+      speed: 0.5,
+      curve: 1.8
     },
 
     // Sección 2 — SUR GLOBAL
@@ -68,7 +72,7 @@ var config = {
                 <img src="assets/Treemap-Global-Flourish.png" style="width:100%; border-radius:8px; margin-bottom:12px;">
                 </a>
                 <p style="font-size: 11px; color: #888; font-style: italic; margin-top: 4px;">
-                Figura 2. Representación de autores global
+                Figura 2. Representación de autores global - haz clic en la imagen para ver la versión interactiva
                 </p>
                 África, Latinoamérica y gran parte de Asia están subrepresentadas en la autoría científica.
                 Esta ausencia refleja desigualdades históricas en financiación, infraestructura
@@ -105,7 +109,7 @@ var config = {
                 <img src="assets/mapa-global-autoria.png" style="width:100%; border-radius:8px; margin-bottom:12px;">
                 </a>
                 <p style="font-size: 11px; color: #888; font-style: italic; margin-top: 4px;">
-                Figura 3. Mapa global de autoría por país
+                Figura 3. Mapa global de autoría por país - haz clic en la imagen para ver la versión interactiva
                 </p>
                 Las regiones costeras y las islas bajas serán algunas de las más afectadas por el aumento del nivel del mar, según el IPCC. Sin embargo, estas mismas zonas apenas están representadas en la autoría científica. Quienes viven los impactos más intensos del cambio climático suelen tener menos presencia en los espacios donde se produce el conocimiento.
                 <br><br>
@@ -121,6 +125,10 @@ var config = {
         pitch: 0,
         bearing: 0,
       },
+      mapAnimation: "easeTo",
+      rotateAnimation: false,
+      speed: 0.7,
+      curve: 1.5
     },
 
     // Sección 4 — LIDERAZGO Y GÉNERO
@@ -132,7 +140,7 @@ var config = {
                 <img src="assets/Sunburst-comparativa-genero.png" style="width:100%; border-radius:8px; margin-bottom:12px;">
                 </a>
                 <p style="font-size: 11px; color: #888; font-style: italic; margin-top: 4px;">
-                Figura 4. Comparativa de género y liderazgo
+                Figura 4. Comparativa de género y liderazgo - haz clic en la imagen para ver la versión interactiva
                 </p>
                 El liderazgo científico sigue concentrado en regiones con más recursos. Solo una cuarta parte de quienes ocupan roles de liderazgo son mujeres. Y aunque en muchas zonas del Sur Global hay una fuerte presencia femenina en la investigación, su participación disminuye cuando se trata de acceder a posiciones de coordinación y toma de decisiones.
                 <br><br>
@@ -156,6 +164,10 @@ var config = {
                 pitch: 8,
                 bearing: -10,
       },
+      mapAnimation: "easeTo",
+      rotateAnimation: false,
+      speed: 0.7,
+      curve: 1.5
     },
 
     // Sección 5 — CONCLUSIÓN
@@ -166,7 +178,7 @@ var config = {
                 <a href="https://public.flourish.studio/visualisation/27948112/" target="_blank">
                 <img src="assets/Sanskey.png" style="width:100%; border-radius:8px; margin-bottom:12px;"></a>
                 <p style="font-size: 11px; color: #888; font-style: italic; margin-top: 4px;">
-                Figura 4. ¿Quién participa en la ciencia del clima?
+                Figura 4. ¿Quién participa en la ciencia del clima? - haz clic en la imagen para ver la versión interactiva
                 </p>
                 La crisis climática es desigual: afecta más a quienes menos han contribuido a causarla.
                 Pero también es desigual quién investiga, quién lidera y quién define las soluciones.
